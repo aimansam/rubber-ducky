@@ -13,7 +13,7 @@
 - Lab workstation(s) you own or administer:
 - Virtual machines:
 - Approved test accounts:
-- Approved USB HID device(s):
+- Approved USB HID device(s): Raspberry Pi Pico used as a lab HID device
 - Allowed test window:
 
 ## Out of Scope
@@ -29,6 +29,7 @@
 ## Allowed Activities
 
 - Harmless keyboard-injection proof of concept
+- Pi Pico USB HID setup in a local lab
 - Device insertion logging review
 - Endpoint control validation
 - SIEM/log detection validation

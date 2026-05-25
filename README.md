@@ -20,6 +20,8 @@ project/red-team/rubber-ducky/
   testing-notes.md
   findings.md
   cleanup.md
+  TODO.md
+  recommendations.md
   payloads/
     README.md
   evidence/
@@ -40,6 +42,14 @@ This project should be managed as its own Git repository. The parent workspace r
 4. Capture screenshots, timestamps, device identifiers, and system logs.
 5. Convert observations into blue-team detection and hardening notes.
 6. Write findings and cleanup status.
+
+## Current Hardware
+
+- Raspberry Pi Pico configured only for authorized local lab HID testing.
+
+## Next Action
+
+Use `TODO.md` to complete the lab scope and prepare the first harmless text-entry baseline test.
 
 ## Defensive Questions
 

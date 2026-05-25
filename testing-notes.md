@@ -8,6 +8,15 @@
 - Start endpoint logging or SIEM collection before inserting the device.
 - Record OS version, username type, endpoint controls, and device details.
 
+## Pi Pico Setup Notes
+
+- Device: Raspberry Pi Pico.
+- Intended role: lab-only USB HID keyboard emulator.
+- Recommended firmware path: CircuitPython plus a USB HID library, used only for harmless text-entry tests.
+- Keep a clean backup of any working Pico files before changing firmware or payload notes.
+- Label the physical device clearly as a lab test device.
+- Do not connect the Pico to third-party, work, school, client, or public machines without written authorization.
+
 ## Baseline Test
 
 Objective: verify that a USB HID device can type a harmless message into a controlled text editor session.
@@ -19,6 +28,14 @@ Expected behavior:
 - No commands are executed.
 - No files are created beyond an optional local note saved by the operator.
 - Logs capture device insertion or keyboard activity where available.
+
+Suggested harmless message:
+
+```text
+Rubber Ducky lab test - authorized local HID validation.
+```
+
+Do not include terminal commands, credential prompts, browser actions, downloads, persistence, or data collection in the first baseline test.
 
 ## Evidence to Capture
 
@@ -35,3 +52,12 @@ Expected behavior:
 - Review endpoint device-control policy coverage.
 - Test user reporting process for unknown USB devices.
 - Compare logs across Windows, Linux, and macOS lab hosts.
+
+## Next Lab Session Checklist
+
+- [ ] Fill in lab workstation details in `scope.md`.
+- [ ] Confirm the Pi Pico appears as expected when connected.
+- [ ] Open a text editor manually before the test.
+- [ ] Run only the harmless text-entry baseline.
+- [ ] Capture endpoint logs for device insertion.
+- [ ] Add results to `evidence/` and summarize in `findings.md`.
