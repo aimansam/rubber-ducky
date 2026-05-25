@@ -21,6 +21,13 @@ Start with:
 - Mode 1: Baseline Text Entry
 - Mode 2: Device Logging Validation
 
+Restricted pentest modes:
+
+- Mode 5: Restricted Pentest Validation
+- Mode 6: Restricted Detection Trigger
+
+Modes 5 and 6 require written authorization, exact target scope, a test window, cleanup notes, and evidence-handling rules before use.
+
 Keep `mode.txt.example` as a simple model for choosing a default safe mode. The default should be `0` until scope and lab readiness are complete.
 
 ## Payload Review Checklist
@@ -30,4 +37,5 @@ Keep `mode.txt.example` as a simple model for choosing a default safe mode. The 
 - [ ] Payload has been reviewed before execution.
 - [ ] Payload does not collect secrets or personal data.
 - [ ] Payload does not persist or change system settings.
+- [ ] Any command execution is explicitly authorized, non-destructive, and limited to approved hosts.
 - [ ] Cleanup and evidence handling are documented.

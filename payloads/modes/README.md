@@ -11,3 +11,5 @@ Do not add payload notes for credential theft, persistence, stealth, destructive
 - `mode-02-device-logging-validation.md`
 - `mode-03-user-awareness-demo.md`
 - `mode-04-timing-rate-test.md`
+- `mode-05-restricted-pentest-validation.md`
+- `mode-06-restricted-detection-trigger.md`

@@ -21,6 +21,7 @@
 ## Later
 
 - [ ] Build a small library of safe lab-only mode notes.
+- [ ] Add restricted pentest mode details only after written authorization and exact scope exist.
 - [ ] Add device-control policy testing.
 - [ ] Add user-awareness reporting workflow notes.
 - [ ] Write a sanitized blog draft after the lab results are documented.
@@ -30,3 +31,4 @@
 - Scope must be completed before testing.
 - Only owned or explicitly authorized systems are allowed.
 - No credential collection, persistence, destructive actions, or data exfiltration.
+- Restricted pentest modes require written authorization and exact host scope.
