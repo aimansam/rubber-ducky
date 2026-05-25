@@ -21,6 +21,7 @@ project/red-team/rubber-ducky/
   findings.md
   cleanup.md
   TODO.md
+  NEXT-MOVE.md
   MODE-OPTIONS.md
   recommendations.md
   payloads/
@@ -51,7 +52,7 @@ This project should be managed as its own Git repository. The parent workspace r
 
 ## Next Action
 
-Use `TODO.md` and `MODE-OPTIONS.md` to complete the lab scope, keep the Pico on Safe Idle by default, and prepare the first harmless text-entry baseline test.
+Use `NEXT-MOVE.md`, `TODO.md`, and `MODE-OPTIONS.md` to complete the lab scope, keep the Pico on Safe Idle by default, and prepare the first harmless text-entry baseline test.
 
 ## Defensive Questions
 

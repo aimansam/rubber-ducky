@@ -4,6 +4,7 @@
 
 - [ ] Fill in the lab workstation, VM, test account, and allowed test window in `scope.md`.
 - [ ] Record Pi Pico details: board type, firmware, USB device name, serial/hardware ID if visible.
+- [ ] Follow `NEXT-MOVE.md` for the current phase plan.
 - [ ] Prepare one owned lab machine with no sensitive apps open.
 - [ ] Enable or identify logs for USB device insertion.
 - [ ] Review `MODE-OPTIONS.md` and keep the Pico default on Mode 0 Safe Idle.
@@ -15,7 +16,8 @@
 - [ ] Document endpoint behavior in `testing-notes.md`.
 - [ ] Add any observed risk to `findings.md`.
 - [ ] Update `reports/report.md` with a short test summary.
-- [ ] Create a blue-team companion project for USB HID detection.
+- [ ] Continue the blue-team companion project for USB HID detection.
+- [ ] Add safe Discord alert notifications through the blue-team project only.
 - [ ] Compare detection options across Linux and Windows lab hosts.
 
 ## Later
