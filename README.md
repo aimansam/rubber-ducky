@@ -14,7 +14,7 @@ This project must stay scoped to systems you own, lab hosts, or targets where wr
 ## Folder Map
 
 ```text
-red-team/rubber-ducky/
+project/red-team/rubber-ducky/
   README.md
   scope.md
   testing-notes.md
@@ -30,7 +30,7 @@ red-team/rubber-ducky/
 
 ## Repository
 
-This project should be managed as its own Git repository. The parent workspace repo ignores `red-team/rubber-ducky/` so project commits can go to a dedicated GitHub repository.
+This project should be managed as its own Git repository. The parent workspace repo ignores `project/red-team/rubber-ducky/` so project commits can go to a dedicated GitHub repository.
 
 ## Milestones
 

@@ -13,7 +13,7 @@
 - [ ] No credentials, tokens, cookies, or API keys are present.
 - [ ] No personal identifiers are present.
 - [ ] No private target information appears in blog/report assets.
-- [ ] Evidence is stored under `evidence/red-team/rubber-ducky/` if needed.
+- [ ] Evidence is stored under this project repo's `evidence/` folder if needed.
 - [ ] Sanitized findings are copied into `reports/` if needed.
 
 ## Lessons Learned
