@@ -10,6 +10,7 @@ This project must stay scoped to systems you own, lab hosts, or targets where wr
 - Build a harmless baseline test that proves keyboard injection risk without damaging systems.
 - Document defensive controls for blocking, detecting, and responding to rogue HID activity.
 - Produce sanitized evidence and a report-ready finding template.
+- Keep related blue-team detection and Discord alerting notes inside this same project repo.
 
 ## Folder Map
 
@@ -27,6 +28,8 @@ project/red-team/rubber-ducky/
   payloads/
     README.md
     modes/
+  blue-team/
+    usb-hid-detection/
   evidence/
     README.md
   reports/
@@ -53,6 +56,8 @@ This project should be managed as its own Git repository. The parent workspace r
 ## Next Action
 
 Use `NEXT-MOVE.md`, `TODO.md`, and `MODE-OPTIONS.md` to complete the lab scope, keep the Pico on Safe Idle by default, and prepare the first harmless text-entry baseline test.
+
+Blue-team follow-up lives in `blue-team/usb-hid-detection/` in this same repository.
 
 ## Defensive Questions
 

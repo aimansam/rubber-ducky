@@ -26,7 +26,8 @@ Validate USB HID risk safely with a Raspberry Pi Pico, then prove whether blue-t
 
 ## Phase 3: Blue-Team Detection
 
-- [ ] Update the USB HID Detection project with the exact log source used.
+- [ ] Use `blue-team/usb-hid-detection/` inside this repo for detection work.
+- [ ] Update the USB HID Detection notes with the exact log source used.
 - [ ] Search for USB insertion, HID registration, and driver events.
 - [ ] Document whether the Pi Pico was visible in logs.
 - [ ] Create a detection note for new HID device insertion.
@@ -34,7 +35,7 @@ Validate USB HID risk safely with a Raspberry Pi Pico, then prove whether blue-t
 
 ## Phase 4: Safe Discord Notification
 
-- [ ] Use Discord only for defensive alert notifications from the blue-team project.
+- [ ] Use Discord only for defensive alert notifications from `blue-team/usb-hid-detection/`.
 - [ ] Send sanitized alert summaries only, such as event type, lab host alias, timestamp, and detection name.
 - [ ] Do not send raw logs, secrets, usernames, private IPs, tokens, cookies, files, screenshots with sensitive data, or target data.
 - [ ] Store webhook URLs outside Git in environment variables or a local `.env` file that is ignored.
@@ -43,9 +44,9 @@ Validate USB HID risk safely with a Raspberry Pi Pico, then prove whether blue-t
 
 - [ ] Update `findings.md` with the risk observed.
 - [ ] Update `reports/report.md` with test results and recommendations.
-- [ ] Add blue-team results from the USB HID Detection project.
+- [ ] Add blue-team results from `blue-team/usb-hid-detection/`.
 - [ ] Decide whether the result is suitable for a sanitized blog draft.
 
 ## Recommendation
 
-Do the first live lab run in this order: Mode 0, Mode 2, Mode 1. After those three work, continue in the blue-team project and build a sanitized Discord alert bridge for notifications only.
+Do the first live lab run in this order: Mode 0, Mode 2, Mode 1. After those three work, continue in `blue-team/usb-hid-detection/` and build a sanitized Discord alert bridge for notifications only.
