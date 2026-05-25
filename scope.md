@@ -10,11 +10,11 @@
 
 ## In Scope
 
-- Lab workstation(s) you own or administer:
+- Lab workstation(s) you own or administer: Kali desktop local lab host
 - Virtual machines:
 - Approved test accounts:
 - Approved USB HID device(s): Raspberry Pi Pico used as a lab HID device
-- Allowed test window:
+- Allowed test window: Local lab sessions only
 
 ## Out of Scope
 

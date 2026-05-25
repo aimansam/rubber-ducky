@@ -3,7 +3,7 @@
 ## Now
 
 - [ ] Fill in the first lab host and OS in `../../scope.md`.
-- [ ] Confirm which log source will be used first.
+- [ ] Confirm whether `scripts/desktop_usb_hid_monitor.py` is the first log source.
 - [ ] Capture baseline logs before connecting the Pi Pico.
 - [ ] Record Pi Pico insertion/removal timestamps from the red-team activity log.
 - [ ] Search logs for new USB/HID device events.

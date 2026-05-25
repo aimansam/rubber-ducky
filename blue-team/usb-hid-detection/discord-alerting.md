@@ -42,6 +42,7 @@ Evidence: evidence/YYYYMMDD-usb-hid-validation-note.md
 - Keep `.env` out of Git.
 - Test with mock events before using real lab alerts.
 - Redact before sending any notification outside the lab.
+- Use `scripts/desktop_usb_hid_monitor.py --discord` only for sanitized defensive alerts from your own lab desktop.
 
 ## Validation Checklist
 

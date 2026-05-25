@@ -13,6 +13,12 @@ Confirm that an owned lab host can observe a Pi Pico acting as a USB HID device,
 - [ ] Close sensitive apps and remove secrets from the desktop/session.
 - [ ] Open a plain text editor manually if running Mode 1.
 - [ ] Start or identify endpoint logs for USB/HID events.
+- [ ] Start the desktop monitor if using this Kali desktop as the lab host:
+
+```bash
+python3 scripts/desktop_usb_hid_monitor.py --host-alias kali-desktop
+```
+
 - [ ] Keep the Pico mode at `0` Safe Idle until ready.
 
 ## First Run Order
@@ -31,7 +37,7 @@ Do not skip Mode 0. It confirms the device can be connected without action.
 | Pico board/firmware details | `scope.md` |
 | Insertion/removal timestamps | `testing-notes.md` |
 | Mode selected | `testing-notes.md` |
-| Endpoint log source | `blue-team/usb-hid-detection/TODO.md` |
+| Endpoint log source | `blue-team/usb-hid-detection/TODO.md` and `scripts/desktop_usb_hid_monitor.py` output |
 | Detection result | `blue-team/usb-hid-detection/detections.md` |
 | Sanitized screenshots/log snippets | `evidence/` |
 | Summary and recommendation | `reports/report.md` |
