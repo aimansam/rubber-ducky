@@ -49,4 +49,4 @@ Validate USB HID risk safely with a Raspberry Pi Pico, then prove whether blue-t
 
 ## Recommendation
 
-Do the first live lab run in this order: Mode 0, Mode 2, Mode 1. After those three work, continue in `blue-team/usb-hid-detection/` and build a sanitized Discord alert bridge for notifications only.
+Do the first live lab run using `LAB-RUNBOOK.md` in this order: Mode 0, Mode 2, Mode 1. Stop after Mode 2 if logs are missing or unclear. After those checks work, continue in `blue-team/usb-hid-detection/` and build a sanitized Discord alert bridge for notifications only.
