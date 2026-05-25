@@ -17,6 +17,20 @@
 - Label the physical device clearly as a lab test device.
 - Do not connect the Pico to third-party, work, school, client, or public machines without written authorization.
 
+## Mode-Based Testing
+
+Use `MODE-OPTIONS.md` to choose the test mode before connecting the Pico.
+
+Recommended order:
+
+1. Mode 0: Safe Idle.
+2. Mode 2: Device Logging Validation.
+3. Mode 1: Baseline Text Entry.
+4. Mode 3: User Awareness Demo, if training is part of scope.
+5. Mode 4: Timing/Rate Test, only after baseline logging is reliable.
+
+Do not implement or run modes that perform credential theft, persistence, stealth, destructive actions, data exfiltration, endpoint-control bypass, or unauthorized command execution.
+
 ## Baseline Test
 
 Objective: verify that a USB HID device can type a harmless message into a controlled text editor session.

@@ -11,6 +11,18 @@ Start with harmless payloads that demonstrate keyboard injection risk without ru
 - Does not access files, credentials, network resources, or clipboard data.
 - Does not disable controls or alter configuration.
 
+## Mode Options
+
+Use `../MODE-OPTIONS.md` as the source of truth for Pi Pico modes.
+
+Start with:
+
+- Mode 0: Safe Idle
+- Mode 1: Baseline Text Entry
+- Mode 2: Device Logging Validation
+
+Keep `mode.txt.example` as a simple model for choosing a default safe mode. The default should be `0` until scope and lab readiness are complete.
+
 ## Payload Review Checklist
 
 - [ ] Scope allows USB HID testing.
